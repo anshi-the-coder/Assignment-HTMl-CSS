@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#greeting {
+  margin-top: 20px;
+  font-size: 18px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.error {
+  color: red;
+}
